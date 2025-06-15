@@ -6,4 +6,5 @@ RUN npm install --global n8n
 
 EXPOSE 5678
 
-CMD ["n8n"]
+CMD ["n8n", "start"]
+
